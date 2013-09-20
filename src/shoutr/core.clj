@@ -28,4 +28,4 @@
   (GET "/" [] (index)))
 
 (defn -main []
-  (run-jetty #'routes {:port 8080 :join? false}))
+  (run-jetty #'routes {:port (Integer/parseInt (or (System/getenv "PORT") "8080")) :join? false}))
