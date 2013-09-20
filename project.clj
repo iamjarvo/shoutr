@@ -7,5 +7,7 @@
                  [org.clojure/java.jdbc "0.2.3"]
                  [postgresql "9.1-901.jdbc4"]
                  [ring/ring-jetty-adapter "1.1.6"]
+                 [hiccup "1.0.2"]
+                 [clj-time "0.6.0"]
                  [compojure "1.1.3"]]
   :main shoutr.core)
